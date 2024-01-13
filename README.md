@@ -1,6 +1,6 @@
 # Generative Modelling resources
 
-This repository contains (top notch) useful resources for image or video generation.
+This repository contains (top notch) useful resources for image or video generation. We use "score-based generative models" interchangeably with "diffusion models".
 
 ## Videos
 - [Diffusion and Score-Based Generative Models | Yang Song](https://youtu.be/wMmqCMwuM2Q); explains many key papers including
@@ -16,6 +16,7 @@ This repository contains (top notch) useful resources for image or video generat
 
 ## Papers
 - [Generative Modeling by Estimating Gradients of the Data Distribution](https://arxiv.org/abs/1907.05600)
-- [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239); connects for the first time diffusion probabilistic models and denoising score matching with Langevin dynamics
+- [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456); formalizes the link between DDPM and SMLD by introducing predictor-corrector samplers and merge them under score-based generative models.
 - [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366); the basis for the relation between CNFs and score-based generative models (a.k.a. diffusion models)
 - [Flow Matching for Generative Modeling](https://arxiv.org/pdf/1806.07366.pdf)
